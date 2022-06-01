@@ -10,3 +10,9 @@ jobs:
           node-version: "14"
       - run: npm install -g bats
       - run: bats -v
+      - uses: lgmorand/github-action-hello@v2.0.0
+        with:
+          # firstname of the person
+          firstname: test
+          # firstname of the person
+          firstname2: test # default is Jane
